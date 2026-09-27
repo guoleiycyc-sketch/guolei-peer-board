@@ -58,4 +58,4 @@
 
 [MIT License](LICENSE) © 2026 Guo Lei。可自由使用、修改、商用与再分发，仅需保留版权声明。
 
-> 本仓为「郭磊」品牌独立版；前代「道行」品牌版本见 [mg-expert-team-dist](https://github.com/guoleiycyc-sketch/mg-expert-team-dist)（CC-BY-NC-4.0，止于 v2.0.1）。
+> 本仓为「郭磊」品牌独立版，由前代「道行」品牌 v2.0.1（CC-BY-NC-4.0，已下线）整体升级而来。
