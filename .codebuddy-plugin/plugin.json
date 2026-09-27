@@ -1,0 +1,174 @@
+{
+  "name": "guolei-peer-board",
+  "version": "1.0.0",
+  "description": "A peer advisory board where a facilitator hosts a structured private-board roundtable: six advisors ask sharp questions without giving advice, reframe the owner's real problem, and close with an action commitment plus one supervisor",
+  "author": {
+    "name": "Guo Lei",
+    "email": "258105741+guoleiycycsketch@users.noreply.github.com"
+  },
+  "agents": [
+    "./agents/board-facilitator.md",
+    "./agents/board-strategy.md",
+    "./agents/board-model.md",
+    "./agents/board-growth.md",
+    "./agents/board-org.md",
+    "./agents/board-review.md",
+    "./agents/board-challenger.md"
+  ],
+  "skills": [
+    "./skills/board-intake"
+  ],
+  "expertType": "team",
+  "agentName": "board-facilitator",
+  "teamInfo": {
+    "leadAgent": "board-facilitator",
+    "memberAgents": [
+      "board-strategy",
+      "board-model",
+      "board-growth",
+      "board-org",
+      "board-review",
+      "board-challenger"
+    ]
+  },
+  "displayName": {
+    "en": "Guolei Peer Advisory Board",
+    "zh": "郭磊私董专家团"
+  },
+  "profession": {
+    "en": "Guolei Peer Advisory Board",
+    "zh": "郭磊私董专家团"
+  },
+  "displayDescription": {
+    "en": "An owner brings a case to the roundtable; the facilitator hosts while six advisors ask sharp questions without giving advice, reframe the real problem, and close with an action commitment and one supervisor.",
+    "zh": "企业主带案题入席，私董官主持圆桌：六路幕僚只问不评照见盲区，真问题重构后以行动承诺收口。"
+  },
+  "avatar": "avatars/board-facilitator.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "帮我开一场私董会，盘盘我生意上最大的难题",
+    "en": "Host a peer advisory board for my biggest business problem"
+  },
+  "plugin": "guolei-peer-board",
+  "tags": [
+    {
+      "en": "Peer Advisory",
+      "zh": "私董会"
+    },
+    {
+      "en": "Real Problem",
+      "zh": "真问题重构"
+    },
+    {
+      "en": "Action Commitment",
+      "zh": "行动承诺"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Host a peer advisory board for my biggest business problem",
+      "zh": "帮我开一场私董会，盘盘我生意上最大的难题"
+    },
+    {
+      "en": "I can't tell what my real problem is — help me reframe it",
+      "zh": "我说不清问题到底出在哪，帮我重新框定真问题"
+    },
+    {
+      "en": "Everyone agrees with my plan — I need someone to challenge it",
+      "zh": "我的计划大家都说好，找人来挑挑刺"
+    }
+  ],
+  "members": [
+    {
+      "id": "board-facilitator",
+      "name": {
+        "en": "Yue Chaqiu",
+        "zh": "岳察秋"
+      },
+      "profession": {
+        "en": "Chief Facilitator",
+        "zh": "私董官"
+      },
+      "avatar": "avatars/board-facilitator.png",
+      "role": "lead"
+    },
+    {
+      "id": "board-strategy",
+      "name": {
+        "en": "Fang Zhiyuan",
+        "zh": "方致远"
+      },
+      "profession": {
+        "en": "Strategy Board Member",
+        "zh": "战略幕僚"
+      },
+      "avatar": "avatars/board-strategy.png",
+      "role": "member"
+    },
+    {
+      "id": "board-model",
+      "name": {
+        "en": "Sheng Yida",
+        "zh": "盛意达"
+      },
+      "profession": {
+        "en": "Business Model Board Member",
+        "zh": "商业模式幕僚"
+      },
+      "avatar": "avatars/board-model.png",
+      "role": "member"
+    },
+    {
+      "id": "board-growth",
+      "name": {
+        "en": "Zeng Changqing",
+        "zh": "曾长青"
+      },
+      "profession": {
+        "en": "Growth Board Member",
+        "zh": "增长提效幕僚"
+      },
+      "avatar": "avatars/board-growth.png",
+      "role": "member"
+    },
+    {
+      "id": "board-org",
+      "name": {
+        "en": "Yang Wotu",
+        "zh": "杨沃土"
+      },
+      "profession": {
+        "en": "Organization Board Member",
+        "zh": "组织激励幕僚"
+      },
+      "avatar": "avatars/board-org.png",
+      "role": "member"
+    },
+    {
+      "id": "board-review",
+      "name": {
+        "en": "Shi Jianjin",
+        "zh": "史鉴今"
+      },
+      "profession": {
+        "en": "Business Review Board Member",
+        "zh": "经营复盘幕僚"
+      },
+      "avatar": "avatars/board-review.png",
+      "role": "member"
+    },
+    {
+      "id": "board-challenger",
+      "name": {
+        "en": "Deng Butong",
+        "zh": "邓不同"
+      },
+      "profession": {
+        "en": "Black-Hat Board Member",
+        "zh": "黑帽子幕僚"
+      },
+      "avatar": "avatars/board-challenger.png",
+      "role": "member"
+    }
+  ]
+}
